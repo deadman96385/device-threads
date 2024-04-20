@@ -4,11 +4,11 @@
 > [!NOTE]
 > Userdebug builds may lag more then User versions
 > 
-- Jan 14th 2022 Userdebug Build [Here](https://www.androidfilehost.com/?fid=16385555061192798583)
-- Sept 29th 2021 User Build [Here](https://www.androidfilehost.com/?fid=16385555061192798594)
-- April 5th 2021 User Build [Here](https://www.androidfilehost.com/?fid=16385555061192798585)
-- Jan 17th 2021 User Build [Here](https://www.androidfilehost.com/?fid=16385555061192798598)
-- May 28th 2020 User Build [Here](https://www.androidfilehost.com/?fid=16385555061192798579)
+- Jan 14th 2022 Userdebug Firmware [Here](https://www.androidfilehost.com/?fid=16385555061192798583)
+- Sept 29th 2021 User Firmware [Here](https://www.androidfilehost.com/?fid=16385555061192798594)
+- April 5th 2021 User Firmware [Here](https://www.androidfilehost.com/?fid=16385555061192798585)
+- Jan 17th 2021 User Firmware [Here](https://www.androidfilehost.com/?fid=16385555061192798598)
+- May 28th 2020 User Firmware [Here](https://www.androidfilehost.com/?fid=16385555061192798579)
 
 ## Lenovo Self-extracting factory reset tool download (Jan 17th 2021 User Build): [Here](https://www.androidfilehost.com/?fid=16385555061192798593)
 
