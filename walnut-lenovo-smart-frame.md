@@ -20,7 +20,7 @@ There are 3 capacitive hw buttons, 2 arrows and a star icon.
 1. Plug in your usb adapter/hub and a usb mouse
 1. Use the mouse to quickly try and pull the statusbar down from the top multiple times until it expands
 1. Click the gear icon to go to settings
-1. Unlock development settings turn adb access on
+1. Unlock development settings and then turn adb access on
 1. You will need a bluetooth controller or mouse to accept the adb authorization prompt, use your wired mouse to pair it in settings and then connect the device to your computer via a usb c cable 
 1. (Optional) Enable oem unlock in developer settings to save time for future modding
 
@@ -75,7 +75,7 @@ Phh AOSP 12.1 v416 (system-squeak-arm64-ab-vanilla.img.xz)
 1. Reboot to fastbootd
    ```fastboot reboot fastboot```
 1. Flash the GSI system image 
-   ```fastboot flash system C:\Users\seanh\Downloads\system-squeak-arm64-ab-floss.img```
+   ```fastboot flash system system-squeak-arm64-ab-floss.img```
 1. Sadly there is no way to directly boot to recovery so you must boot up into the very broken non-factory reset os
 1. Then factory reset the device via settings or via adb
    
