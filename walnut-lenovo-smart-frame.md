@@ -3,17 +3,33 @@
 ## Navigating the device
 This device does not have a touchscreen so you need to usb mouse plugged into the usb c port with an otg adapter to begin with.
 
-## IR Proximity & Button info
+## Hardware Specs
+- SOC: MediaTek MT8167s
+- Ram: 2GB
+- EMMC: 16GB (10GB's of Userdata)
+- Sound: 2 X 2W Speakers & 1 x Wide field microphone array
+- WLAN: WiFi 802.11 ac/a/b/g/n; 2.4/5GHz
+- Bluetooth: Bluetooth 5.0
+- Display: Size: 21.5"
+- IPS Panel with Anti-Glare Coating
+- Viewing Angle: 85°
+- Resolution: FHD (1920 x 1080)
+- Brightness: 250nits
+- Orientation: Portrait & Landscape
+- Sensors: IR Proximity & RGB Ambient light sensor
+- Stock OS: AOSP Android 10
+
+## IR Proximity/Gesture sensor & Button info
 The black pill shaped section is an IR powered proximity sensor that has UP/Down/Left/Right gesture detection which are reported to the OS as the following:
-1. ```GESUTRE_DIR_UP (Keycode 289)```
-1. ```GESUTRE_DIR_DOWN (Keycode 290)```
-1. ```GESTURE_DIR_LEFT (Keycode 291)```
-1. ```GESTURE_DIR_RIGHT (Keycode 292)```
+-  ```GESUTRE_DIR_UP (Keycode 289)```
+-  ```GESUTRE_DIR_DOWN (Keycode 290)```
+-  ```GESTURE_DIR_LEFT (Keycode 291)```
+-  ```GESTURE_DIR_RIGHT (Keycode 292)```
 
 There are 3 capacitive hw buttons, 2 arrows and a star icon.
-1. ```KEYCODE_VOLUME_UP (Keycode 115)```
-1. ```KEYCODE_VOLUME_DOWN (Keycode 114)```
-1. ```KEYCODE_FAVORITE (Keycode 295)```
+-  ```KEYCODE_VOLUME_UP (Keycode 115)```
+-  ```KEYCODE_VOLUME_DOWN (Keycode 114)```
+-  ```KEYCODE_FAVORITE (Keycode 295)```
 
 ## Enable ADB access
 1. Remove the silcone cover over the USB C port on the back of the frame near the exposed power port
