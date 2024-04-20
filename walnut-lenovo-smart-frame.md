@@ -42,4 +42,4 @@
 1. Download the tool
 1. Run it (It will ask to install drivers say yes)
 1. It will install to ```C:\Users\USERNAME\AppData\Roaming\Lenovo_SmartFrame_Flash```
-1. Run Flash.cmd to fully flash your device with whatever image files are in the image folder
+1. Run Flash.cmd or FrameROM.exe to fully flash your device with whatever image files are in the image folder
