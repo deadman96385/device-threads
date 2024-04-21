@@ -10,19 +10,21 @@ This device does not have a touchscreen so you need to usb mouse plugged into th
 - Sound: 2 X 2W Speakers & 1 x Wide field microphone array
 - WLAN: WiFi 802.11 ac/a/b/g/n; 2.4/5GHz
 - Bluetooth: Bluetooth 5.0
-- Display: Size: 21.5"
-- IPS Panel with Anti-Glare Coating
-- Viewing Angle: 85°
-- Resolution: FHD (1920 x 1080)
-- Brightness: 250nits
-- Orientation: Portrait & Landscape
 - Sensors: IR Proximity & RGB Ambient light sensor
 - Stock OS: AOSP Android 10
+- Display:
+   - Size: 21.5"
+   - IPS Panel with Anti-Glare Coating
+   - Resolution: FHD (1920 x 1080)
+   - Brightness: 250nits
+   - Viewing Angle: 85°
+   - Orientation: Portrait & Landscape
+
 
 ## IR Proximity/Gesture sensor & Button info
 The black pill shaped section is an IR powered proximity sensor that has UP/Down/Left/Right gesture detection which are reported to the OS as the following:
--  ```GESUTRE_DIR_UP (Keycode 289)```
--  ```GESUTRE_DIR_DOWN (Keycode 290)```
+-  ```GESTURE_DIR_UP (Keycode 289)```
+-  ```GESTURE_DIR_DOWN (Keycode 290)```
 -  ```GESTURE_DIR_LEFT (Keycode 291)```
 -  ```GESTURE_DIR_RIGHT (Keycode 292)```
 
@@ -93,16 +95,8 @@ Phh AOSP 12.1 v416 (system-squeak-arm64-ab-vanilla.img.xz)
 1. Flash the GSI system image 
    ```fastboot flash system system-squeak-arm64-ab-floss.img```
 1. Sadly there is no way to directly boot to recovery so you must boot up into the very broken non-factory reset os
-1. Then factory reset the device via settings or via adb
-   
-   Settings Method:
-
+1. Then factory reset the device via settings
    Settings -> Backup & Reset -> Reset data -> full factory reset
-
-   ADB Method:
-   1. ```adb shell```
-    1. ```recovery -wipe_data```
-   1. ```adb reboot recovery```
 
 ## (Windows) Lenovo Self-extracting factory reset tool usage
 ### Lenovo Self-extracting factory reset tool download (Jan 17th 2021 User Build): [Here](https://www.androidfilehost.com/?fid=16385555061192798593)
