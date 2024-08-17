@@ -5,13 +5,13 @@
 
 #### Specs
 ##### Explorer Version 1 XE-A
-- Android 4.4 (KitKat)[131]
+- Texas Instruments OMAP 4430 SoC 1.2 GHz Dual (ARMv7)
+- Android 4.4.X (KitKat)
 - 640×360 Himax HX7309 LCoS display
-- 5-megapixel camera, capable of 720p video recording[8]
+- 5-megapixel camera, capable of 720p video recording
 - Wi-Fi 802.11b/g
 - Bluetooth
-- 16 GB storage (12 GB available)[8]
-- Texas Instruments OMAP 4430 SoC 1.2 GHz Dual (ARMv7)
+- 16 GB storage (12 GB available)
 - 1 GB RAM
 - 3 axis gyroscope, 3 axis accelerometer and 3 axis magnetometer (compass)
 - Ambient light sensing and proximity sensor
@@ -36,6 +36,7 @@ This device was never publicly released so there is no documentation
 
 #### Specs
  - Intel Atom TG100 processor
+ - Android 4.4.4 (KitKat)
  - Dual-band 802.11n/ac wifi,
  - Assisted GPS & GLONASS
  - Barometer
@@ -72,5 +73,6 @@ The EE2 bootloader is unlockable by default if the glasses are bought from a goo
 
 ### Kernel Source
 [Here](https://github.com/deadman96385/android_kernel_google_glassv3)
+
 #### History:
 Initially back in early 2020, I had to fight through Google Glass support for them to release the source to me. But they now post it freely on the firmware dev docs. I have worked on turning the files they released into a kernel source with a good history and an explanation of the changes google did to the reference Qualcomm source. Both the kernel and techpack changes are included. Sadly due to how the Qualcomm wifi driver is licensed, they are not required to release it so I have instead imported the reference source which seems to work. The source has all changes as of the msm-4.9_221118	November 18, 2022.
