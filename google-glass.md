@@ -56,6 +56,11 @@ The XE bootloader is unlockable by default
 | XE12 | XRT73B |
 | XE11 | XRT35 |
 | XE10 | XRS92 |
+| XE9 | XRS68 |
+| XE8 | XRS36 |
+| XE7 | XRR88 |
+| XE6 | XRR64B |
+| XE5 | XRR35 |
 
 ## Enterprise Edition 1 (EE1)
 #### Google documentation
