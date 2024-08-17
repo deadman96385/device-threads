@@ -28,7 +28,10 @@
 The XE bootloader is unlockable by default
 
 #### Kernel Source
-[Here](https://android.googlesource.com/kernel/omap/+/refs/heads/glass-omap-xrx13)
+[Here](https://android.googlesource.com/kernel/omap/+/refs/heads/glass-omap-xrh35)
+
+### Device firmware dump (XE10 - XE24)
+[Here](https://dumps.tadiphone.dev/dumps/google/glass-2)
 
 ## Enterprise Edition 1 (EE1)
 #### Google documentation
@@ -49,6 +52,9 @@ The EE1 bootloader is unlockable by default
 
 ### Kernel Source
 This device was never publicly released so there is no GPL kernel source
+
+### Device firmware dump (Last avalaible version)
+[Here](https://dumps.tadiphone.dev/dumps/google/glass-2)
 
 ## Enterprise Edition 2 (EE2)
 #### Google documentation
@@ -73,6 +79,9 @@ The EE2 bootloader is unlockable by default if the glasses are bought from a goo
 
 ### Kernel Source
 [Here](https://github.com/deadman96385/android_kernel_google_glassv3)
+
+### Device firmware dump (OPM1.191020.001 - OPM1.221111.001)
+[Here](https://dumps.tadiphone.dev/dumps/google/glass_v3)
 
 #### History:
 Initially back in early 2020, I had to fight through Google Glass support for them to release the source to me. But they now post it freely on the firmware dev docs. I have worked on turning the files they released into a kernel source with a good history and an explanation of the changes google did to the reference Qualcomm source. Both the kernel and techpack changes are included. Sadly due to how the Qualcomm wifi driver is licensed, they are not required to release it so I have instead imported the reference source which seems to work. The source has all changes as of the msm-4.9_221118	November 18, 2022.
