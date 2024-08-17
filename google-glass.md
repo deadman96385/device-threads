@@ -30,8 +30,32 @@ The XE bootloader is unlockable by default
 #### Kernel Source
 [Here](https://android.googlesource.com/kernel/omap/+/refs/heads/glass-omap-xrh35)
 
-### Device firmware dump (XE10 - XE24)
+#### Device firmware dump (XE10 - XE24)
 [Here](https://dumps.tadiphone.dev/dumps/google/glass-2)
+
+| Version | Branch name |
+| ------------- | ------------- |
+| XE24 | XRH35 |
+| XE23 | XRH19|
+| XE22 | XRX13B |
+| XE21.3 | XRW85|
+| XE21 | XRW66 |
+| XE20.1 | XRW45c |
+| XE19.1 | XRW14B |
+| XE18.3 | XRV87 |
+| XE18.11 | XRV72 |
+| XE18.1 | XRV70D |
+| XE17.31 | XRV67 |
+| XE17.3 | XRV60B |
+| XE17.2 | XRV49 |
+| XE17.1 | XRV39 |
+| XE17 | XRV34 |
+| XE16.2 | XRV27 |
+| XE16.11 | XRV22 |
+| XE16 | XRV15C |
+| XE12 | XRT73B |
+| XE11 | XRT35 |
+| XE10 | XRS92 |
 
 ## Enterprise Edition 1 (EE1)
 #### Google documentation
@@ -47,13 +71,13 @@ This device was never publicly released so there is no documentation
  - 780 mAh battery
  - Dynamic driver speaker instead of bone conduction audio transducer
 
-### Bootloader
+#### Bootloader
 The EE1 bootloader is unlockable by default
 
-### Kernel Source
+#### Kernel Source
 This device was never publicly released so there is no GPL kernel source
 
-### Device firmware dump (Last avalaible version)
+#### Device firmware dump (Last avalaible version)
 [Here](https://dumps.tadiphone.dev/dumps/google/glass-2)
 
 ## Enterprise Edition 2 (EE2)
@@ -74,13 +98,13 @@ This device was never publicly released so there is no GPL kernel source
  - Water and dust resistant
  - ~46g weight
 
-### Bootloader
+#### Bootloader
 The EE2 bootloader is unlockable by default if the glasses are bought from a google authorized seller. Some Google Partner glasses are very locked down. Be sure to confirm that the Google stock firmware is installed before buying any.
 
-### Kernel Source
+#### Kernel Source
 [Here](https://github.com/deadman96385/android_kernel_google_glassv3)
 
-### Device firmware dump (OPM1.191020.001 - OPM1.221111.001)
+#### Device firmware dump (OPM1.191020.001 - OPM1.221111.001)
 [Here](https://dumps.tadiphone.dev/dumps/google/glass_v3)
 
 #### History:
