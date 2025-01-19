@@ -84,10 +84,27 @@ I recommend you to backup some critical partitions, including: bspdata, rf_nv, d
 [Reference instructions in the Archive repo](https://github.com/helloavo/Light-L16-Archive/tree/main?tab=readme-ov-file#firmware)
 
 ## EDL Client (Windows/Linux)
+https://github.com/bkerler/edl
 
-## Foaxconn OST Flasher (Windows)
+## Foaxconn OST Flasher (Windows) (Untested so far)
+1. Download and install the [Modded OST](https://androidfilehost.com/?fid=8889791610682920445)
+2. Download and extract the nb0 formatted firmware from above
+3. Run the Modded OST click login on the prompt
+4. ?????? Finish later
 
 ## QFIL (Windows)
+1. Download and install the [Qualcomm drivers](https://mega.nz/#F!ud8VwKRJ!-cJr7EJyhb1PkziNx5KvLQ?yFtVySyL)
+2. Download the firmware from above
+3. Extract the firmware to a folder that you can easily access them from like your desktop
+4. Download and install [QPST](https://www.androidfilehost.com/?fid=1395089523397896264)
+5. Open the QFIL application (Find it in your start menu)
+6. In the "Select Build Type" field select Flat Build
+7. In the "Select Programmer" field navigate to the folder you extracted the firmware and support files to and select the prog_emmc_firehose_8996.mbn file
+8. Select the "Load XML" button and navigate to the folder you extracted the firmware and support files to and select the rawprogram0.xml and then the patch0.xml when prompted.
+9. Plug in your tablet
+10. Run the following command `adb reboot edl`
+11. If the text at the top of the QFIL application says "No Port Available" click the "Select Port..." option and pick your device. If your device isn't showing up there you didn't install the drivers properly.
+12. Click the Download Button to begin flashing your device
 
 ## Kernel Source: 
 None :(
