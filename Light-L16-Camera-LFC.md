@@ -24,7 +24,7 @@ Recovery keycombo
 - Ram: 4GB
 - EMMC: 256GB
 - Battery: 4120mAh
-- Sound: WCD9320 audio chip?
+- Sound: 1 Small speaker (WCD9320)
 - WLAN: 2.4ghz/5ghz
 - Bluetooth: 4.0/BLE
 - GPS: Yes
